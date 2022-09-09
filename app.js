@@ -3,7 +3,7 @@ const startButton = document.getElementById('start-button')
 const pauseButton = document.getElementById('pause-button')
 const restartButton = document.getElementById('restart-button')
 
-let secund = 0
+let second = 0
 let timeFunc;
 
 function timerFunc() {
@@ -11,14 +11,14 @@ function timerFunc() {
     startButton.textContent = 'START'
     restartButton.classList.add('hidden')
     timeFunc = setInterval(() => {
-        secund++
-        timer.textContent = secund
+        second++
+        timer.textContent = second
         timer.classList.add('green')
     }, 1000)
     
 }
 function restartFunc() {
-    secund = 0
+    second = 0
     timerFunc()
 }
 function timerFuncStop() {
