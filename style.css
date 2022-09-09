@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 .container {
     max-width: 90%;
     width: 100%;
@@ -17,12 +16,11 @@
     justify-content: center;
     align-items: center;
 }
-
-.second {
+.timer {
     font-size: 4rem;
 }
 .green {
-    color: rgb(0, 95, 0);
+    color: rgb(0, 74, 0);
 }
 .buttons {
     margin-top: 2rem;
@@ -31,7 +29,6 @@
 .hidden {
     display: none;
 }
-
 .btn {
     font-size: 1rem;
     color: #fff;
